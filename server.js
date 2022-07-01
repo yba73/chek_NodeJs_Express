@@ -7,7 +7,7 @@ const workingHours = require("./middlewares/working_hours");
 app.use(workingHours);
 
 // Routes
-const HomeRouter = require("./Routes//home");
+const HomeRouter = require("./Routes/home");
 app.use("/", HomeRouter);
 
 const ContactRouter = require("./Routes/Contact us");
